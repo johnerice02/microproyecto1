@@ -1,0 +1,366 @@
+/* Add a black background color to the top navigation */
+body{background-color:gray;}
+.Navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.Navbar {
+  color: white;
+    background-color: #333;
+    overflow: hidden;
+    text-align: left;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+
+ 
+  
+  .Navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+ .Navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .Navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+  
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Place text in the middle of the image */
+.hero-text {
+font-size: 90px;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+.Experiencetext {
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  color: grey;
+  }
+
+.Abouttext {
+  position: absolute;
+  font-size: x-large;
+  top: 15%;
+  left: 5%;
+  color: white;
+  }
+
+  .Contacttext {
+    position: absolute;
+    font-size: xx-large;
+    top: 1%;
+    left: 5%;
+    color: black;
+    }
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+    .button {
+      position: absolute;
+      background-color: #ddd;
+      border: none;
+      color: black;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 16px;
+    }
+
+    .Experience {
+      widows: 1920px;
+      /*max-width:100px;*/
+      height:1080px;
+      /*max-height:100px;*/
+      position:relative;
+      background:#A7CCBF;
+    }
+    .text-exp1 {
+      position: absolute;
+      top: 15%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+      color: white;
+      }
+      .text-exp2 {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        }
+    .Experience1{
+      position: absolute;
+      top: 5%;
+      left: 0%;
+     width: 1200px;
+      height: 300px;
+     background-color: #F5FFE0;
+    }
+    .Experience2{
+      position: absolute;
+      top: 36%;
+      right: 0%;
+      width: 1200px;
+      height: 300px;
+      background-color:#DED4C1;
+     }
+     .Experience3{
+      position: absolute;
+      left: 0%;
+      bottom: 5%;
+      width: 1200px;
+      height: 300px;
+      background-color: #F58378;
+     }
+
+    .Aboutme {
+      widows: 1920px;
+      /*max-width:100px;*/
+      height:1080px;
+      /*max-height:100px;*/
+      position:relative;
+      background:#B871F0;
+    }
+    .Aboutme img{
+      width: 50%;
+      height: auto;
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+    }
+
+    .Skills{
+      widows: 1920px;
+      /*max-width:100px;*/
+      height:1080px;
+      /*max-height:100px;*/
+      position:relative;
+      background:#D9F578;
+    }
+
+    .Contactme {
+      widows: 1920px;
+      /*max-width:100px;*/
+      height:  720px;
+      /*max-height:100px;*/
+      position:relative;
+      background:orange;
+    }
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: calc(100vh - 50px);
+	background-color: #F5F5F5;
+	background-size: cover;
+	background-position: center;
+	transition: all .1s ease-out;
+	background-image: url('https://blogs.iadb.org/conocimiento-abierto/wp-content/uploads/sites/10/2018/06/software-libre-codigo-abierto-1.jpg');
+	animation: banner 28s infinite linear;
+}
+.banner-content{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	background-color: rgba(0, 22, 40, .6);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.banner-content h1{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 30px;
+	font-size: 40px;
+	text-align: center;
+}
+.banner-content a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 9px 20px;
+	border: 1px solid #FFF;
+	text-transform: uppercase;
+	transition: all .3s ease-in-out;
+}
+.banner-content a:hover{
+	background-color: #fff;
+	color: #333;
+}
+@keyframes banner{
+	0%{
+		background-image: url('https://blogs.iadb.org/conocimiento-abierto/wp-content/uploads/sites/10/2018/06/software-libre-codigo-abierto-1.jpg');
+	}
+	25%{
+		background-image: url('https://blogs.iadb.org/conocimiento-abierto/wp-content/uploads/sites/10/2018/06/software-libre-codigo-abierto-1.jpg');
+	}
+
+
+	26%{
+		background-image: url('https://blogs.iadb.org/conocimiento-abierto/wp-content/uploads/sites/10/2017/11/c%C3%B3digo-datos-argentina-banner-1-2.jpg');
+	}
+	50%{
+		background-image: url('https://blogs.iadb.org/conocimiento-abierto/wp-content/uploads/sites/10/2017/11/c%C3%B3digo-datos-argentina-banner-1-2.jpg');
+	}
+
+
+	51%{
+		background-image: url('https://www.workana.com/i/wp-content/uploads/2019/08/codigo-abierto-workana-glosario.jpg');
+	}
+	75%{
+		background-image: url('https://www.workana.com/i/wp-content/uploads/2019/08/codigo-abierto-workana-glosario.jpg');
+	}
+	
+
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.Contactme formulario{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+}
+
+input[type=name] , select {
+  position: absolute;
+  left: 15%;
+  top: 22%;
+  width: 50%;
+  padding: 12px 20px;
+  /*margin: 8px 0;*/
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  position: absolute;
+  left: 15%;
+  top: 32%;
+  width: 50%;
+  padding: 12px 20px;
+  /*margin: 8px 0;*/
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=message], select {
+  position: absolute;
+  left: 15%;
+  top: 42%;
+  width: 50%;
+  padding: 12px 20px;
+  /*margin: 8px 0;*/
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  position: absolute;
+  left: 15%;
+  top:50%;
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.Instagram img{
+  width:42px;
+  height:42px;
+  position: absolute;
+  bottom: 5%;
+  right: 28%;
+}
+.Twitter img{
+  width:auto;
+  height:42px;
+  position: absolute;
+  right: 22%;
+  bottom: 5%;
+}
+.Correo {
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+}
+.telefono{
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+}
+.E1 img{
+  width:auto;
+  height:190px;
+  position: absolute;
+  right: 2%;
+  bottom: 15%;
+}
+.E2 img{
+  width:auto;
+  height:190px;
+  position: absolute;
+  right: 6%;
+  bottom: 15%;
+}
+.E3 img{ 
+  width:auto;
+  height:190px;
+  position: absolute;
+  right: 2%;
+  bottom: 15%;
+}
